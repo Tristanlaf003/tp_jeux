@@ -1,0 +1,11 @@
+[gd_scene format=2]
+
+[node name="Mur" type="StaticBody2D"]
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+polygon = PoolVector2Array( 0, 0, 0, 384, 8, 384, 8, 0 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+position = Vector2( -7.15256e-07, 59.4 )
+scale = Vector2( 1, 4.09375 )
+polygon = PoolVector2Array( 7.15256e-07, -14.5099, 7.15256e-07, 77.3374, 7.15256e-07, 79.2916, 8, 79.2916, 8, -14.5099 )
