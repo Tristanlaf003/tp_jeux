@@ -20,7 +20,7 @@ script = ExtResource( 3 )
 position = Vector2( 1272, 184 )
 
 [node name="player" parent="." instance=ExtResource( 1 )]
-position = Vector2( 16, 140 )
+position = Vector2( 16, 144 )
 
 [node name="Vie" type="Label" parent="."]
 margin_right = 40.0
